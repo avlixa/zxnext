@@ -23,17 +23,24 @@ Teclas: Cursores -> jugador 1/3,
         Esc -> Menu, 
         F3 -> Reinicio juego. 
 
-La versión 2 incluye cambio de color por menú a varios modros preestablecidos. 
+Joystick: Arriba/abajo - movimiento paleta,
+        Fuego 1 -> saque manual,
+        Fuego 2 -> Menu.
 
 Issues: Por RGB no funciona.
 
 -------------
-Implementación de Pong AY-3-8500 para ZXUNO.
+Implementación de Pong AY-3-8500 para ZXNEXT: no probado.
 
 Teclas: igual que versión ZXDOS
 
 Joystick: solo implementado un joystick asignado a los dos jugadores.
 
-La versión 2 incluye cambio de color por menú a varios modros preestablecidos. 
+Implementado teclado de membrana:
+        Cursores/O/L -> jugador 1/3, 
+        Q / A -> jugador 2/4, 
+        SPC/Return -> saque manual,
+        1 a 7 -> tipo de juego, 
+        Break -> Menu, 
+        Edit -> Reinicio juego.         
 
-Issues: No funciona, sólo aparece el menú en modo VGA.
